@@ -1,5 +1,4 @@
-
-  // // app/layout.js or app/layout.jsx
+// // app/layout.js or app/layout.jsx
 // import { Montserrat, Nunito } from "next/font/google";
 // import Header from "@/components/Header"
 // import Footer from "@/components/Footer"
