@@ -1,0 +1,164 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  overflow-x: hidden;
+}
+@layer utilities {
+  .animate-on-scroll {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.8s ease-out;
+  }
+
+  .animate-on-scroll.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Variants */
+  .fade-in-left {
+    transform: translateX(-40px);
+  }
+  .fade-in-left.show {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  .fade-in-right {
+    transform: translateX(40px);
+  }
+  .fade-in-right.show {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  .fade-in-up {
+    transform: translateY(40px);
+  }
+  .fade-in-up.show {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  .fade-in-down {
+    transform: translateY(-40px);
+  }
+  .fade-in-down.show {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+/* In your global CSS */
+.page-content {
+  padding-top: 80px; /* Match your navbar height */
+}
+
+.prose.prose-blue.max-w-none p {
+    margin-bottom: 15px;
+}
+
+.prose.prose-blue.max-w-none p {
+  margin-bottom: 15px;
+  font-size: 1rem;
+  line-height: 1.75;
+  color: #374151; /* Tailwind gray-700 */
+}
+
+.prose.prose-blue h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  line-height: 1.3;
+  color: #1f2937; /* gray-800 */
+}
+
+.prose.prose-blue.max-w-none h2 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  margin-top: 25px;
+  line-height: 1.35;
+  color: #1f2937;
+}
+
+.prose.prose-blue.max-w-none h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  margin-top: 20px;
+  line-height: 1.4;
+  color: #1f2937;
+}
+
+.prose.prose-blue.max-w-none h4 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 18px;
+  line-height: 1.4;
+  color: #1f2937;
+}
+
+.prose.prose-blue.max-w-none h5 {
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin-bottom: 8px;
+  margin-top: 15px;
+  line-height: 1.4;
+  color: #1f2937;
+}
+
+.prose.prose-blue.max-w-none h6 {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 6px;
+  margin-top: 12px;
+  line-height: 1.4;
+  color: #1f2937;
+}
+
+.prose.prose-blue.max-w-none ul {
+  list-style: disc inside;
+  margin-left: 1.5rem;
+  margin-bottom: 15px;
+  padding-left: 1rem;
+}
+
+.prose.prose-blue.max-w-none ol {
+  list-style: decimal inside;
+  margin-left: 1.5rem;
+  margin-bottom: 15px;
+  padding-left: 1rem;
+}
+
+.prose.prose-blue.max-w-none li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+  color: #374151;
+}
+
+.prose.prose-blue.max-w-none span {
+  color: inherit;
+  font-size: inherit;
+}
+
+.prose.prose-blue.max-w-none a {
+  color: #2563eb; /* Tailwind blue-600 */
+  text-decoration: underline;
+}
+
+.prose.prose-blue.max-w-none strong {
+  font-weight: 600;
+  color: #111827; /* gray-900 */
+}
+
+.prose.prose-blue.max-w-none blockquote {
+  border-left: 4px solid #2563eb;
+  padding-left: 1rem;
+  font-style: italic;
+  color: #4b5563; /* gray-600 */
+  margin: 20px 0;
+}
