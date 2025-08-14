@@ -11,7 +11,7 @@ const servicesPageData = {
   hero: {
     title: "Mental Health and Counselling at Trupeak",
     subtitle: "Focused support that adapts to your body’s needs at every life stage.",
-    image: "/images/hero.jpg",
+    image: "/images/mental/1.jpg",
   },
   textSectionData: {
     description: `Longevity isn’t defined by age alone. It depends on how well your biology responds to stress, recovers from damage, and adapts over time. This program combines detailed diagnostics with personalized medical guidance to assess your immune strength, biological age, and overall resilience. It helps uncover hidden imbalances before they develop into disease and supports your path toward long-term health.`,
@@ -28,14 +28,14 @@ const servicesPageData = {
     align: "left",
   },
   infoSection: {
-    title: "Your Path to Preventive Healthcare",
-    description: `At Trupeak™ we look beyond surface symptoms to identify root-level dysfunctions before they develop into chronic illness. Our interventions target multiple systems using advanced diagnostics, evidence-based therapies, and a personalized, data-led care model. Each protocol is crafted to optimize your metabolic, hormonal, neurological, and immune health. We work to reset your biology and support long-term well-being from the inside out.`,
-    buttonText: "Know More",
+    title: "Overview",
+    description: `At Trupeak, mental well-being is treated as a key component of total health. Whether you're facing daily stress, long-term anxiety, or emotional burnout, we offer care that is grounded, respectful, and personalized. Every program is built to meet your needs, with a balance of clinical expertise and human understanding.`,
+    // buttonText: "Know More",
     buttonLink: "/services",
     images: [
-      "/images/doctors/doc1.jpg",
-      "/images/doctors/doc2.jpg",
-      "/images/doctors/doc3.jpg",
+      "/images/mental/2.jpg",
+      "/images/mental/3.jpg",
+      "/images/mental/4.jpg",
     ],
   },
   imageTextData: {
@@ -45,39 +45,34 @@ const servicesPageData = {
   },
   cards: [
     {
-    title: "PCOS and PCOD",
+    title: "Peptides for Mental Support",
     description: [
-      "Advanced diagnostics to uncover hormonal, metabolic, and ovarian imbalances."
+      "In some cases, we include peptides that help regulate mood, improve focus, and support cognitive function."
     ]
   },
   {
-    title: "Menopause-Related Concerns",
+    title: "Counselling for Cancer-Related Stress",
     description: [
-      "For women navigating perimenopause and menopause, our relief protocols offer support from hot flashes, sleep disturbances, mood shifts, and bone loss."
+      "Our trained counselors offer a space to talk, reflect, and build coping skills through every stage of diagnosis and treatment."
     ]
   },
   {
-    title: "Hormone Balancing",
+    title: "Nutrition for Mental Clarity",
     description: [
-      "Functional hormone mapping combined with clinical-grade bioidentical or micronutrient therapies."
+      "We build customized nutrition strategies that support mood, reduce brain fog, and help balance your energy levels."
+    ]
+  },
+  
+  {
+    title: "Private Sessions with Psychologists",
+    description: [
+      "Whether you're dealing with anxiety, grief, or life transitions, these sessions give you tools and structure to move through challenges"
     ]
   },
   {
-    title: "Post-Hysterectomy Support",
+    title: "Pediatric Counselling and Behavior Support",
     description: [
-      "Women who have undergone uterine removal may face pelvic floor changes, sexual health concerns, and accelerated aging."
-    ]
-  },
-  {
-    title: "HPV Vaccine Guidance",
-    description: [
-      "We offer guidance and help connect young adults and eligible women with HPV vaccination resources."
-    ]
-  },
-  {
-    title: "UTI Prevention & Recurrence Management",
-    description: [
-      "Recurrent urinary tract infections are evaluated through microbiome, hydration, and anatomical profiling."
+      "We work with children and families to support ADHD, anxiety, and other challenges using practical tools and consistent guidance."
     ]
   },
   {

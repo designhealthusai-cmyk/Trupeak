@@ -11,7 +11,7 @@ const servicesPageData = {
   hero: {
     title: "Ergogenic Medicine",
     subtitle: "Focused support that adapts to your body’s needs at every life stage.",
-    image: "/images/hero.jpg",
+    image: "/images/ergogenic/1.jpg",
   },
   textSectionData: {
     description: `Longevity isn’t defined by age alone. It depends on how well your biology responds to stress, recovers from damage, and adapts over time. This program combines detailed diagnostics with personalized medical guidance to assess your immune strength, biological age, and overall resilience. It helps uncover hidden imbalances before they develop into disease and supports your path toward long-term health.`,
@@ -28,38 +28,38 @@ const servicesPageData = {
     align: "left",
   },
   infoSection: {
-    title: "Your Path to Preventive Healthcare",
-    description: `At Trupeak™ we look beyond surface symptoms to identify root-level dysfunctions before they develop into chronic illness. Our interventions target multiple systems using advanced diagnostics, evidence-based therapies, and a personalized, data-led care model. Each protocol is crafted to optimize your metabolic, hormonal, neurological, and immune health. We work to reset your biology and support long-term well-being from the inside out.`,
+    title: "Overview",
+    description: `At Trupeak, our Ergogenic Medicine program is designed to restore strength, boost stamina, and accelerate recovery, whether you're training for a marathon or managing the demands of everyday life. We use a precision-based approach that combines hormone optimization, performance supplements, and recovery tools, all tailored to your unique biology.With doctor-guided care and advanced diagnostics, our protocols go beyond symptom relief to support the core systems that drive energy, circulation, muscle recovery, and stress resilience. From sexual wellness and fertility to endurance and overall vitality, every plan is built to help you perform at your peak with confidence and clarity.`,
     buttonText: "Know More",
     buttonLink: "/services",
     images: [
-      "/images/doctors/doc1.jpg",
-      "/images/doctors/doc2.jpg",
-      "/images/doctors/doc3.jpg",
+      "/images/ergogenic/2.jpg",
+      "/images/ergogenic/3.jpg",
+      "/images/ergogenic/4.jpg",
     ],
   },
   imageTextData: {
-    title: "Protocol Philosophy",
-    description: `The original hospital model maintained blood glucose between 150 and 200 mg/dL over 12-hour windows using a structured, nurse-friendly algorithm. We extend that disciplined approach to multiple biomarkers, glucose, fat distribution, muscle quality, and energy expenditure so every step is measurable, safe, and consistent.`,
+    title: "Sexual Health",
+    description: `Personalized hormone and metabolic support to restore libido, improve function, and enhance overall sexual vitality.`,
     image: "/images/hero.jpg",
   },
   cards: [
     {
-    title: "PCOS and PCOD",
+    title: "Fertility",
     description: [
-      "Advanced diagnostics to uncover hormonal, metabolic, and ovarian imbalances."
+      "Targeted protocols to optimize reproductive hormones, sperm quality, and ovulation health using evidence-based nutrition and supplementation."
     ]
   },
   {
-    title: "Menopause-Related Concerns",
+    title: "Virility",
     description: [
-      "For women navigating perimenopause and menopause, our relief protocols offer support from hot flashes, sleep disturbances, mood shifts, and bone loss."
+      "Strengthens physical drive and confidence through testosterone support, circulatory enhancement, and stress modulation."
     ]
   },
   {
-    title: "Hormone Balancing",
+    title: "Athletic Boost",
     description: [
-      "Functional hormone mapping combined with clinical-grade bioidentical or micronutrient therapies."
+      "Improves performance, muscle recovery, and physical output with precision supplementation, training recovery tools, and energy optimization."
     ]
   },
   {
@@ -69,21 +69,21 @@ const servicesPageData = {
     ]
   },
   {
-    title: "HPV Vaccine Guidance",
+    title: "Intimate Health",
     description: [
-      "We offer guidance and help connect young adults and eligible women with HPV vaccination resources."
+      "Supports pelvic blood flow, nerve sensitivity, and emotional well-being to promote a fulfilling intimate experience."
     ]
   },
   {
-    title: "UTI Prevention & Recurrence Management",
+    title: "Endurance Boost",
     description: [
-      "Recurrent urinary tract infections are evaluated through microbiome, hydration, and anatomical profiling."
+      "Enhances physical and mental stamina by addressing mitochondrial health, oxygen delivery, and adrenal resilience."
     ]
   },
   {
-    title: "Osteoporosis & Bone Health",
+    title: "STD Support",
     description: [
-      "Bone density screening, nutritional interventions, and targeted physical therapy to prevent fractures and maintain skeletal strength."
+      "Offers diagnostic screening, medical guidance, and supportive therapies to manage and recover from sexually transmitted infections discreetly and effectively."
     ]
   }
   ],

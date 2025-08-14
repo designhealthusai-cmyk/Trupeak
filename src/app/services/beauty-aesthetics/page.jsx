@@ -12,7 +12,7 @@ const servicesPageData = {
   hero: {
     title: "Beauty Aesthetics at Trupeak",
     subtitle: "Where clinical precision meets regenerative care.",
-    image: "/images/hero.jpg",
+    image: "/images/beauty/1.jpg",
   },
   infoSection: {
     title: "Overview",
@@ -36,9 +36,9 @@ personal, safe, and true to you.`,
     // buttonText: "Know More",
     // buttonLink: "/services",
     images: [
-      "/images/doctors/doc1.jpg",
-      "/images/doctors/doc2.jpg",
-      "/images/doctors/doc3.jpg",
+      "/images/beauty/2.jpg",
+      "/images/beauty/3.jpg",
+      "/images/beauty/4.jpg",
     ],
   },
   ourApproach: {
@@ -51,7 +51,7 @@ personal, safe, and true to you.`,
       "Cryotherapy and IV nutrient support for inflammation control",
       "Manual therapy to manage scar tissue and soft-tissue restriction",
     ],
-    image: "/images/hero.jpg",
+    image: "/images/beauty/5.jpg",
   },
     cards: [
     {
@@ -99,7 +99,7 @@ personal, safe, and true to you.`,
       "It’s a reflection of health, vitality, and emotional well-being.",
       "At Trupeak, every detail of our aesthetic approach is rooted in clinical insight, regenerative care, and personalized diagnostics to ensure each client receives tangible outcomes that feel authentic and enduring.",
     ],
-    image: "/images/hero.jpg", // Replace with your image path
+    image: "/images/beauty/6.jpg", // Replace with your image path
   },
   features : [
   {

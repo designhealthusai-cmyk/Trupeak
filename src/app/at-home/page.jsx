@@ -21,7 +21,7 @@ function Page() {
       <Imagetext
         title="At-Home Testing"
         description="Diagnostic accuracy starts at home with kits that allow you to collect blood, saliva, or stool samples safely and easily. Results are processed in accredited labs and interpreted by our team as part of your personalized care plan."
-        image="/images/main.jpg" // make sure this image exists in /public/images/
+        image="/images/at-home/4.jpg" // make sure this image exists in /public/images/
         reverse={true}
         bgColor="bg-white"
         textColor="text-gray-800"

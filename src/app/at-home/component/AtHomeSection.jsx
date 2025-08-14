@@ -48,7 +48,7 @@ const AtHomeSection = ({
   titleColor = 'text-one',
   textColor = 'text-white',
   barColor = 'bg-[#34A889]',
-  moleculeImage = 'images/at-home/1.jpg',
+  moleculeImage = '/images/at-home/1.jpg',
   personImage = '/images/at-home/2.jpg',
 }) => {
   return (

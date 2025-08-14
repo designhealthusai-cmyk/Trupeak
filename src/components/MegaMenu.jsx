@@ -147,6 +147,38 @@ export default function MegaMenu({ isOpen }) {
         { name: "Weight Management", href: "/weight-management" },
         { name: "Fitness Optimization", href: "/fitness" }
       ]
+    },
+    {
+      category: { name: "Beauty Aesthetics", href: "/services/beauty-aesthetics" },
+      subServices: [
+        { name: "Nutrition Counseling", href: "/nutrition" },
+        { name: "Weight Management", href: "/weight-management" },
+        { name: "Fitness Optimization", href: "/fitness" }
+      ]
+    },
+    {
+      category: { name: "Mental Health and Counselling", href: "/services/mental-health-and-counselling" },
+      subServices: [
+        { name: "Nutrition Counseling", href: "/nutrition" },
+        { name: "Weight Management", href: "/weight-management" },
+        { name: "Fitness Optimization", href: "/fitness" }
+      ]
+    },
+    {
+      category: { name: "Ergogenic Medicine", href: "/services/ergogenic-medicine" },
+      subServices: [
+        { name: "Nutrition Counseling", href: "/nutrition" },
+        { name: "Weight Management", href: "/weight-management" },
+        { name: "Fitness Optimization", href: "/fitness" }
+      ]
+    },
+    {
+      category: { name: "Technology", href: "/services/technology" },
+      subServices: [
+        { name: "Nutrition Counseling", href: "/nutrition" },
+        { name: "Weight Management", href: "/weight-management" },
+        { name: "Fitness Optimization", href: "/fitness" }
+      ]
     }
   ];
 

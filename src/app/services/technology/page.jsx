@@ -11,7 +11,7 @@ const servicesPageData = {
   hero: {
     title: "Technology",
     subtitle: "Focused support that adapts to your body’s needs at every life stage.",
-    image: "/images/hero.jpg",
+    image: "/images/tech/1.jpg",
   },
   textSectionData: {
     description: `Longevity isn’t defined by age alone. It depends on how well your biology responds to stress, recovers from damage, and adapts over time. This program combines detailed diagnostics with personalized medical guidance to assess your immune strength, biological age, and overall resilience. It helps uncover hidden imbalances before they develop into disease and supports your path toward long-term health.`,
@@ -28,64 +28,48 @@ const servicesPageData = {
     align: "left",
   },
   infoSection: {
-    title: "Your Path to Preventive Healthcare",
-    description: `At Trupeak™ we look beyond surface symptoms to identify root-level dysfunctions before they develop into chronic illness. Our interventions target multiple systems using advanced diagnostics, evidence-based therapies, and a personalized, data-led care model. Each protocol is crafted to optimize your metabolic, hormonal, neurological, and immune health. We work to reset your biology and support long-term well-being from the inside out.`,
+    title: "Overview",
+    description: `At Trupeak, technology is fully integrated into how we deliver care. From the first test to the latest therapy update, every step is driven by real-time health data. Instead of relying on guesswork, we tailor treatment plans using insights directly from your body. This allows our team to curate care based on actual results, not just symptoms, guesses, or broad averages.`,
     buttonText: "Know More",
     buttonLink: "/services",
     images: [
-      "/images/doctors/doc1.jpg",
-      "/images/doctors/doc2.jpg",
-      "/images/doctors/doc3.jpg",
+     "/images/tech/2.jpg",
+     "/images/tech/3.jpg",
+      "/images/tech/4.jpg",
     ],
   },
   imageTextData: {
-    title: "Protocol Philosophy",
-    description: `The original hospital model maintained blood glucose between 150 and 200 mg/dL over 12-hour windows using a structured, nurse-friendly algorithm. We extend that disciplined approach to multiple biomarkers, glucose, fat distribution, muscle quality, and energy expenditure so every step is measurable, safe, and consistent.`,
+    title: "Real Data, Real Decisions",
+    description: `We use advanced lab testing and medical-grade diagnostics to study your hormonal health, metabolism, brain chemistry, and more.`,
     image: "/images/hero.jpg",
   },
   cards: [
     {
-    title: "PCOS and PCOD",
+    title: "Ongoing Progress Checks",
     description: [
-      "Advanced diagnostics to uncover hormonal, metabolic, and ovarian imbalances."
+      "Every patient’s progress is closely monitored. We track changes in strength, recovery, mood, and biomarkers to fine-tune therapies and ensure you're moving in the right direction."
+    ]
+  },
+ 
+  {
+    title: "Biomarker-Based Insights",
+    description: [
+      "Each person is evaluated using over 800 biomarkers. These markers give insight into inflammation, immunity, organ health, tissue repair, and how your systems are working together."
     ]
   },
   {
-    title: "Menopause-Related Concerns",
+    title: "Real Data, Real Decisions",
     description: [
-      "For women navigating perimenopause and menopause, our relief protocols offer support from hot flashes, sleep disturbances, mood shifts, and bone loss."
+      "We use advanced lab testing and medical-grade diagnostics to study your hormonal health, metabolism, brain chemistry, and more."
     ]
   },
   {
-    title: "Hormone Balancing",
+    title: "Monthly Health Summary",
     description: [
-      "Functional hormone mapping combined with clinical-grade bioidentical or micronutrient therapies."
+      "Patients receive a detailed monthly update highlighting what’s improved, what needs work, and what’s next. "
     ]
   },
-  {
-    title: "Post-Hysterectomy Support",
-    description: [
-      "Women who have undergone uterine removal may face pelvic floor changes, sexual health concerns, and accelerated aging."
-    ]
-  },
-  {
-    title: "HPV Vaccine Guidance",
-    description: [
-      "We offer guidance and help connect young adults and eligible women with HPV vaccination resources."
-    ]
-  },
-  {
-    title: "UTI Prevention & Recurrence Management",
-    description: [
-      "Recurrent urinary tract infections are evaluated through microbiome, hydration, and anatomical profiling."
-    ]
-  },
-  {
-    title: "Osteoporosis & Bone Health",
-    description: [
-      "Bone density screening, nutritional interventions, and targeted physical therapy to prevent fractures and maintain skeletal strength."
-    ]
-  }
+  
   ],
 };
 
