@@ -1,4 +1,8 @@
-import IntroSection from "@/components/IntroSection";
+import React from 'react';
+  
+  
+
+  import IntroSection from "@/components/IntroSection";
 import MissionSection from "@/components/MissionSection";
 import RunningText from "@/components/RunningText";
 import ScienceBehindServices from "@/components/ScienceBehindServices";

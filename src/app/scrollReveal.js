@@ -1,4 +1,14 @@
-document.addEventListener("DOMContentLoaded", () => {
+import React from 'react';
+  
+  const ScrollReveal = () =>  {
+	return (
+	  <div>
+	  </div>
+	);
+  }
+  
+  export default ScrollReveal;
+  document.addEventListener("DOMContentLoaded", () => {
   const observer = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
