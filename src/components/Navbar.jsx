@@ -42,7 +42,7 @@ export default function Navbar() {
       subServices: [
         {
           name: "Restorative Medicine at Trupeak",
-          href: "/restorative-medicine",
+          href: "/services/regenerative-therapies/restorative-medicine",
         },
         { name: "Cancer Nutrition at Trupeak", href: "#" },
         { name: "Renal Nutrition", href:  "#" },
